@@ -136,50 +136,40 @@ Firestore Storage
 ---
 
 ## 📷 Screenshots
+## 📷 Application Screenshots
 
-Add your screenshots in a folder named:
+### 🏠 Landing Page
+![Landing Page](LANDING%20PAGE.png)
 
-```text
-screenshots/
-```
+**Caption:** Modern landing page introducing EduCopilot AI and its AI-powered personalized learning experience.
 
-Then place images like this:
+---
 
-* `screenshots/landing-page.png`
-* `screenshots/onboarding.png`
-* `screenshots/dashboard.png`
-* `screenshots/ai-tutor.png`
-* `screenshots/evaluation.png`
+### 📊 Student Dashboard
+![Dashboard](DASHBOARD.png)
 
-### Paste screenshots in README like this:
+**Caption:** Personalized dashboard displaying study metrics, AI recommendations, and recent learning activity.
 
-```md
-## 📷 Screenshots
+---
 
-### 1. Landing Page
-![Landing Page](screenshots/landing-page.png)
+### 🤖 AI Tutor
+![About / AI Tutor](ABOUT.png)
 
-### 2. Guest Onboarding
-![Guest Onboarding](screenshots/onboarding.png)
+**Caption:** AI-powered Socratic tutor providing guided explanations and personalized learning support.
 
-### 3. Dashboard
-![Dashboard](screenshots/dashboard.png)
+---
 
-### 4. AI Tutor Chat
-![AI Tutor Chat](screenshots/ai-tutor.png)
+### 📝 Progress Evaluation
+![Progress](PROGRESS.png)
 
-### 5. Answer Evaluation
-![Answer Evaluation](screenshots/evaluation.png)
-```
+**Caption:** AI answer evaluation with scores, feedback, and weak-topic identification.
 
-### Best placement
+---
 
-Put the **Screenshots** section **after Tech Stack and before How to Run**.
-That is the most readable place for evaluators.
+### ⚙️ Profile & Settings
+![Profile Settings](PROFIE%20SETTING.png)
 
-### Minimum screenshots
-
-Use at least **3**, but **5** is much better.
+**Caption:** User settings for profile management, theme preferences, and AI tutor customization.
 
 ---
 
