@@ -1,0 +1,6 @@
+{
+  "name": "EduCopilot AI",
+  "description": "Get instant AI feedback, scores, and weak topics to review on your answers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

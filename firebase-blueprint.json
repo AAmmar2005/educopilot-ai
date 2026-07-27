@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "tutor_sessions": {
+      "title": "Tutor Sessions",
+      "description": "AI Tutor Socratic chat sessions with students",
+      "type": "object",
+      "properties": {
+        "studentName": {
+          "type": "string",
+          "description": "Name of the student"
+        },
+        "topic": {
+          "type": "string",
+          "description": "Main subject or topic of session"
+        },
+        "messages": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "description": "Chat messages in the session"
+        },
+        "messageCount": {
+          "type": "number",
+          "description": "Total messages in session"
+        },
+        "topics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Extracted topic tags"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["studentName", "topic", "messages", "messageCount", "createdAt"]
+    }
+  }
+}
