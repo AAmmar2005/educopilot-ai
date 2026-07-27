@@ -2,190 +2,268 @@
 
 > **AI That Doesn't Just Grade You — It Helps You Grow.**
 
-EduCopilot AI is an AI-powered educational web application that helps students learn through conversation instead of memorization. The platform uses the **Socratic learning method**, encouraging students to think critically by guiding them with questions, explanations, and personalized feedback rather than simply providing direct answers.
+EduCopilot AI is an AI-powered Socratic tutoring web app designed to help students learn concepts through guided conversation, personalized recommendations, and answer evaluation.
+Instead of giving only direct answers, the app encourages deeper understanding by asking meaningful questions, providing hints, and supporting active learning.
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live App & Repository
 
-🔗 **Application:** https://educopilot-ai.ai.studio/
-
-🔗 **GitHub Repository:** https://github.com/AAmmar2005/educopilot-ai
-
----
-
-# 📖 Problem Statement
-
-Many students rely on AI tools that instantly generate answers. While convenient, this often reduces critical thinking and limits true understanding of concepts.
-
-Students need an AI assistant that behaves like a supportive tutor—guiding them step-by-step, encouraging curiosity, and helping them develop problem-solving skills rather than promoting answer dependency.
+* 🔗 **Live App:** https://educopilot-ai.ai.studio/
+* 💻 **GitHub Repository:** https://github.com/AAmmar2005/educopilot-ai
 
 ---
 
-# 💡 Solution
+## 📌 Problem Statement
 
-EduCopilot AI provides an interactive AI tutoring experience powered by Google's Gemini AI.
+Many students rely on AI tools that instantly provide direct answers. While this may be fast, it often reduces critical thinking and weakens conceptual understanding.
 
-Instead of acting like a traditional chatbot, the application follows a Socratic teaching style by:
-
-- Asking guiding questions
-- Providing contextual explanations
-- Encouraging independent thinking
-- Supporting concept-based learning
-- Making learning more engaging and personalized
+EduCopilot AI solves this by acting like a supportive tutor. It guides students step by step, helps them think through problems, recommends weak topics, and creates a more interactive learning experience.
 
 ---
 
-# ✨ Features
+## 💡 Solution
 
-- 🎓 AI Socratic Tutor Chat
-- 🤖 Gemini AI Integration
-- 💬 Human-like tutoring conversations
-- 🌙 Light & Dark Mode
-- 📊 Student Learning Dashboard
-- 📈 Progress Tracking Interface
-- 📱 Responsive Design
-- ⚡ Fast AI-powered responses
-- 🎨 Modern and clean user interface
+EduCopilot AI provides:
 
----
+* 🤖 a Socratic AI tutor
+* 🎯 personalized topic recommendations
+* 📊 progress tracking and answer evaluation
+* 🌙 light/dark mode
+* 🧠 learning support through guided conversation
 
-# 🛠 Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| Firebase | Backend Services |
-| Google Gemini AI | AI Tutor |
-| Google AI Studio | AI-assisted Development |
-| JavaScript | Application Logic |
-| HTML5 | Structure |
-| CSS3 | Styling |
-| Git & GitHub | Version Control |
+The goal is to make learning more active, human-like, and concept-focused.
 
 ---
 
-# 🏗 Project Architecture
+## ✨ Top Features
 
+1. 💬 **AI Socratic Tutor Chat** — interactive tutoring with guided questioning
+2. 🎯 **Personalized Recommendations** — suggested topics based on learning history
+3. 📊 **Answer Evaluation** — AI scoring with feedback and weak-topic identification
+4. 📈 **Progress Analytics** — study streaks, message history, and learning overview
+5. 🧑‍🎓 **Guest Onboarding** — quick entry into the app without complexity
+6. 🌙 **Light / Dark Mode** — clean theme switching for comfort
+7. 📝 **Markdown Support** — structured and readable tutor responses
+8. ➗ **LaTeX / Math Rendering** — proper display of formulas and equations
+9. 📱 **Responsive UI** — works across screen sizes
+10. 🎨 **Modern Dashboard Design** — clean, student-friendly learning interface
+
+---
+
+## 🤖 AI Feature Details
+
+EduCopilot AI uses a Socratic tutoring approach. The AI tutor is instructed to behave like a real, caring tutor rather than a robotic chatbot.
+
+### What the AI does
+
+* asks guiding questions
+* explains concepts in a friendly way
+* gives context before asking the student to think further
+* adapts response length based on topic difficulty
+* uses a natural conversational tone
+* supports deeper conceptual learning instead of copy-paste answers
+
+### System instruction behind the AI
+
+The tutor is guided by an instruction that tells it to:
+
+* speak like a warm and encouraging human tutor
+* avoid sounding scripted or repetitive
+* give helpful explanations and examples
+* follow the Socratic method
+* use the student’s name naturally sometimes
+* make the experience feel like one-on-one tutoring
+
+### AI flow
+
+Student message → backend AI request → Gemini response → formatted tutor reply in the app.
+
+---
+
+## 🛠 Tech Stack
+
+| Tech                  | Use                     |
+| --------------------- | ----------------------- |
+| ⚛️ React              | Frontend UI             |
+| 🟦 TypeScript         | Application logic       |
+| ⚡ Vite                | Development/build tool  |
+| 🎨 Tailwind CSS       | Styling                 |
+| 🧩 Firebase Firestore | Data storage            |
+| 🔐 Firebase           | Backend services        |
+| 🤖 Google Gemini AI   | AI tutor engine         |
+| 🌐 Google AI Studio   | AI-assisted development |
+| 🚀 Cloud Run          | Deployment              |
+| 🧱 Express            | Server/API handling     |
+| 🐙 GitHub             | Version control         |
+
+---
+
+## 🧰 Tools & Services Used
+
+* 🤖 Google AI Studio
+* 🧠 Gemini AI
+* 🔥 Firebase Firestore
+* ☁️ Google Cloud Run
+* 🐙 GitHub
+* ⚡ Vite
+* 🎨 Tailwind CSS
+* ⚛️ React
+* 🟦 TypeScript
+
+---
+
+## 🏗 Architecture
+
+```text
+User
+↓
+Landing Page
+↓
+Guest Onboarding
+↓
+Dashboard
+↓
+AI Tutor Chat
+↓
+Gemini AI
+↓
+AI Response
+↓
+Firestore Storage
 ```
-Student
-      │
-      ▼
- Landing Page
-      │
-      ▼
- Account Creation
-      │
-      ▼
- Dashboard
-      │
-      ▼
- AI Socratic Tutor
-      │
-      ▼
- Gemini AI
-      │
-      ▼
- Personalized Learning Response
-```
 
 ---
 
-# 🚀 Getting Started
+## 📷 Screenshots
 
-## Clone the repository
+Add your screenshots in a folder named:
+
+```text
+screenshots/
+```
+
+Then place images like this:
+
+* `screenshots/landing-page.png`
+* `screenshots/onboarding.png`
+* `screenshots/dashboard.png`
+* `screenshots/ai-tutor.png`
+* `screenshots/evaluation.png`
+
+### Paste screenshots in README like this:
+
+```md
+## 📷 Screenshots
+
+### 1. Landing Page
+![Landing Page](screenshots/landing-page.png)
+
+### 2. Guest Onboarding
+![Guest Onboarding](screenshots/onboarding.png)
+
+### 3. Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### 4. AI Tutor Chat
+![AI Tutor Chat](screenshots/ai-tutor.png)
+
+### 5. Answer Evaluation
+![Answer Evaluation](screenshots/evaluation.png)
+```
+
+### Best placement
+
+Put the **Screenshots** section **after Tech Stack and before How to Run**.
+That is the most readable place for evaluators.
+
+### Minimum screenshots
+
+Use at least **3**, but **5** is much better.
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/AAmmar2005/educopilot-ai.git
-```
-
-## Navigate into the project
-
-```bash
 cd educopilot-ai
 ```
 
-## Install dependencies
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-## Run the application
+### 3. Add environment variables
+
+Create a `.env` file if required by the project setup.
+
+Example:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+APP_URL=http://localhost:3000
+```
+
+### 4. Run the project
 
 ```bash
 npm run dev
 ```
 
----
+### 5. Open in browser
 
-# 🎯 How It Works
-
-1. Open EduCopilot AI.
-2. Create your account.
-3. Access the learning dashboard.
-4. Ask any academic question.
-5. Receive guided, AI-powered explanations.
-6. Continue learning through interactive conversations.
-
----
-
-# 🎯 Target Users
-
-- School Students
-- College Students
-- University Students
-- Self-learners
-- Lifelong Learners
-
----
-
-# 📷 Screenshots
-
-> Add screenshots here after deployment.
-
-Example:
-
-```
-/screenshots
-    landing-page.png
-    dashboard.png
-    tutor-chat.png
+```text
+http://localhost:3000
 ```
 
 ---
 
-# 🚀 Future Improvements
+## 🎯 Target Users
 
-- Voice-based tutoring
-- Quiz generation
-- PDF upload and analysis
-- Study planner
-- Learning history
-- Multi-language support
-- Teacher dashboard
-- Performance analytics
-- Assignment assistance
+* High school students
+* College students
+* University students
+* Independent learners
+* Students who want conceptual tutoring
 
 ---
 
-# 🤖 AI Development Note
+## 🚀 Future Improvements
 
-This MVP was rapidly prototyped using **Google AI Studio** with prompt-driven development. AI assisted in generating and refining the application's code and interface, while project planning, feature selection, testing, customization, and documentation were directed by the project author.
+* voice-based tutoring
+* quiz generation
+* PDF/homework analysis
+* better learning analytics
+* multi-language support
+* full authentication system
+* student history and saved sessions
+* teacher dashboard
 
 ---
 
-# 👨‍💻 Author
+## 📝 Important Notes
+
+* This project was developed as an **ACT AI Final Project**.
+* The app uses an **AI-assisted development workflow**.
+* API keys should **never** be committed to GitHub.
+* The deployed live app link should always remain public and working.
+* Screenshots should be added before final submission.
+
+---
+
+## 👨‍💻 Author
 
 **Ahmad Ammar**
-
+Islamia University of Bahawalpur, Bahawalnagar Campus
 BS Computer Science Student
-
-The Islamia University of Bahawalpur
 
 ---
 
-# 📄 License
+## 📄 License
 
-This project is created for educational purposes as part of the **ACT AI Final Project**.
-
-MIT License.
+This project is developed for educational purposes as part of the ACT AI Final Project.
