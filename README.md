@@ -139,7 +139,7 @@ Firestore Storage
 ## 📷 Application Screenshots
 
 ### 🏠 Landing Page
-![Landing Page](LANDING%20PAGE.png)
+![Landing Page](landing-page.png)
 
 **Caption:** Modern landing page introducing EduCopilot AI and its AI-powered personalized learning experience.
 
